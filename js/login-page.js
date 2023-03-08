@@ -5,7 +5,6 @@ const loginErrorMsg = document.getElementById("login-error-msg");
 loginButton.addEventListener("click", (e) => {
     e.preventDefault();
     const username = loginForm.username.value;
-    const password = loginForm.password.value;
 
     if (username === "assignment1") {
         alert("You are succesfully login");
