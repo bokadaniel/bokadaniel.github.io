@@ -121,17 +121,6 @@ header h2{
   display: block;
 }
 
-.card-small{
-  display: block;
-}
-
-.card-large{
-  display: block
-}
-
-card-image{
-  max-width: max-content;
-}
 
 hr.solid{
   color: black;
@@ -140,4 +129,21 @@ hr.solid{
   width: 60vw;
 }
 
+.grid-cards{
+  display: grid;
+  grid-template-columns: repeat(3,minmax(0,1fr));
+  grid-template-rows: 28rem 1fr;
+  margin-top: 2.5rem;
+}
 
+picture img {
+  height: auto;
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 100%;
+}
+
+img, video {
+  height: auto;
+  max-width: 100%;
+}
