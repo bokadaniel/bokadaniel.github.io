@@ -1,3 +1,9 @@
+html{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
 body {
   font-family: Futura;
   src: url(/boskalis.com/assets/fonts/FuturaStdBold.otf)
@@ -49,9 +55,8 @@ li{
 .bottom-bar{
   text-align: right;
   padding: auto;
-  margin: auto;
+  margin-top: 10px;
   background-color: rgb(234 238 242);
-  justify-content: flex-end;
   height: 40px;
   font-weight: 400;
 }
@@ -61,12 +66,8 @@ li{
   background-color: rgb(22 49 91);
   min-width:100%;
   max-width: 100%;
-  object-fit: cover;
-  margin: 0px;
-  padding: 0px;
-  display: flex;
-  position: absolute;
-
+  margin: auto;
+  padding: auto;
 }
 
 .video video {
@@ -74,12 +75,12 @@ li{
   min-width: 100%;
   -o-object-fit: cover;
   object-fit: cover;
-  display: block;
 }
 
 header{
   position: relative;
   text-align: left;
+  display: grid;
 }
 
 header h1{
@@ -103,14 +104,40 @@ header h2{
 }
 
 
-.main{
+
+.news{
+  flex-direction: column;
+  white-space: nowrap;
   background-color: rgb(213 222 230);
   height: auto;
   display: grid;
-  padding: auto;
+  padding: 30px;
+  justify-content: center;
+  text-align: center;
 }
 
-.news{
-  display: box;
-  flex-direction: column;
+.news-container{
+  width: 60vw;
+  display: block;
 }
+
+.card-small{
+  display: block;
+}
+
+.card-large{
+  display: block
+}
+
+card-image{
+  max-width: max-content;
+}
+
+hr.solid{
+  color: black;
+  border-top: 10px solid;
+  border-radius: 10px;
+  width: 60vw;
+}
+
+
