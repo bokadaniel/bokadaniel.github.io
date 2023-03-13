@@ -6,14 +6,14 @@ html{
 
 body {
   font-family: Futura;
-  src: url(/fonts/FuturaStdBold.otf)
+  src: url(/fonts/font.woff2) format('woff2');
 
 }
 
 @font-face {
   font-family: Futura;
   font-display: block;
-  src: url(/fonts/FuturaStdBold.otf) format('otf');
+  src: url(/fonts/font.woff2) format('woff2');
 }
 
 .boka_button{
@@ -110,6 +110,8 @@ header h2{
   flex-direction: column;
   flex-shrink: 0;
   color: white;
+  font-family: "Futura", sans-serif;
+
 }
 
 
