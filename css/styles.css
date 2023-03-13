@@ -6,7 +6,7 @@ html{
 
 body {
   font-family: Futura;
-  src: url(https://www.bokadaniel.github.io/assets/fonts/FuturaStdBold.otf)
+  src: url("/fonts/FuturaStdBold.otf")
 
 }
 

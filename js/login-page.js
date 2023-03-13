@@ -6,21 +6,21 @@ loginButton.addEventListener("click", (e) => {
     e.preventDefault();
     const username = loginForm.username.value;
 
-    if (username === "assignment1") {
+    if (username === "SO") {
         alert("You are succesfully login");
         window.location.replace("/html/SO/index.html");
     } else {
         loginErrorMsg.style.opacity = 1;
     }
-    if (username === "assignment2") {
+    if (username === "OX") {
         alert("You are succesfully login");
-        window.location.replace("/html/MIA/index.html");
+        window.location.replace("/html/OX/index.html");
     } else {
         loginErrorMsg.style.opacity = 1;
     }
-    if (username === "assignment3") {
+    if (username === "MIA") {
         alert("You are succesfully login");
-        window.location.replace("/html/SA/index.html");
+        window.location.replace("/html/MIA/index.html");
     } else {
         loginErrorMsg.style.opacity = 1;
     }
