@@ -12,6 +12,7 @@ body {
 
 @font-face {
   font-family: 'Futura';
+  font-display: block;
   src: url(/fonts/FuturaStdBold.otf) format('otf');
 }
 
