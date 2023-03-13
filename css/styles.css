@@ -10,6 +10,11 @@ body {
 
 }
 
+@font-face {
+  font-family: 'Futura';
+  src: url(/fonts/FuturaStdBold.otf) format('otf');
+}
+
 .boka_button{
   background-color: yellow;
   height: 60px;
